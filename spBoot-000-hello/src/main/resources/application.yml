@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    mode: HTML
+    cache: false
+    template-resolver-order: 0
+    check-template-location: true
+
+logging:
+  level:
+    com.callor.hello: debug
