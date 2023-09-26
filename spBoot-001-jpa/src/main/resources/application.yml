@@ -1,0 +1,20 @@
+spring:
+  thymeleaf:
+    prefix: classpath:views/
+    suffix: .html
+    mode: HTML
+    cache: false
+
+  mvc:
+    static-path-pattern: /static/**
+  web:
+    resources:
+      static-locations: classpath:static/
+      add-mappings: true
+
+  config:
+    import: classpath:application-db.yml
+
+logging:
+  level:
+    com.callor.hello: debug

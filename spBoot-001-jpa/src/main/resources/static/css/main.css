@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    padding:1.2rem;
+    text-align: center;
+    background-color: #54ba54;
+    text-shadow: 1px 1px 1px black;
+    color:white;
+}
+
+
